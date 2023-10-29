@@ -1,0 +1,9 @@
+version: '3'
+services:
+  coturn:
+    build: .
+#    environment:
+#      - ./turnserver.conf=/etc/turnserver.conf
+    volumes:
+      - ./turnserver.conf:/etc/turnserver.conf
+    network_mode: "host"
