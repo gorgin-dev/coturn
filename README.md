@@ -5,7 +5,7 @@ clone this repository and config your turn server by editing turnserver.conf fil
 
 I'll give you more details in following steps:
 
-## 1- install docker and docker-compose
+## 1- Install docker and docker-compose
 if you don't know how to install docker and docker-compose follow this link for ubuntu: 
 https://docs.docker.com/engine/install/ubuntu
 
@@ -27,7 +27,7 @@ need to do this step to fix it`
 
 `6- set cli-password on line 705`
 
-## 3- run it!
+## 3- Run it!
 cd to the directory and execute following command in your terminal:
 `docker-compose up -d`
 
